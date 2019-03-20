@@ -70,7 +70,7 @@ public:
       boost::xtime_get(&xt, boost::TIME_UTC_);
       int duration = 1+(m_content % 4);
       xt.nsec += 250 * 1000 * duration;	
-      boost::thread::sleep(xt); 
+      boost::thread::sleep(xt); // error when build linux.
 	    print(".");
     }	
     return m_content < l.m_content;
