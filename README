@@ -8,3 +8,7 @@ See doc/index.html for information on:
   - API documentation and a tutorial
   - External dependencies
   - Using threadpool
+
+lligen add:
+跨平台编译Android时，prebuild_boost_lib是下载的https://github.com/PurpleI2P/Boost-for-Android-Prebuilt。
+使用gcc编译成功，并在android上运行。
